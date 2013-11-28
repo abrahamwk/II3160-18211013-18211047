@@ -7,4 +7,6 @@ Ricky                    18211047
 
 Cara pakai :
 -buka index.php
--untuk Tugas 3, bila semua tugas kelas sudah ada di folder htdocs dalam xampp, maka tugas 3 bisa dijalankan
+-COntoh akses xml : ./xmlconvert.php/pegawai
+                    ./xmlconvert.php/mahasiswa
+                    ./xmlconvert.php/hp
