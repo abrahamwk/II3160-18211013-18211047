@@ -16,19 +16,19 @@
 
 
   <p>
-  <form action="csvconvert.php" method="get">
+  <form action="./xmlconvert.php/pegawai" method="get">
     <input type="submit" name="submit" value="Membuat XML dari CSV" id="submit"/>
   </form>
   </p>
 
   <p>
-  <form action="tab2.xml" method="get">
+  <form action="./xmlconvert.php/mahasiswa" method="get">
     <input type="submit" name="submit" value="Membuat XML dari XML" id="submit" />
   </form>
   </p>
 
   <p>
-  <form action="sqlconvert.php" method="get">
+  <form action="./xmlconvert.php/hp" method="get">
     <input type="submit" name="submit" value="Membuat XML dari SQL" id="submit" />
   </form>
   </p>
