@@ -16,25 +16,25 @@
 
       //nf x = variabel untuk menyimpan uri dari tugas rekan kami
 
-      $nf1 = "http://localhost/Rekan/habib-andy/index.php/ws/menu/semua";
-      $nf2 = "http://localhost/Rekan/II3160-18211017-18211043/database_collection/xmldb.xml";
-      $nf3 = "http://localhost/Rekan/BernadetteVina/csv.php";
-      $nf4 = "http://localhost/Rekan/II3160-18211003-18211050/menu.xml";
-      $nf5 = "http://localhost/Rekan/II3160--Pemrograman-Integratif-/DaftarIdol.xml";
-      $nf6 = "http://localhost/Rekan/II3160-Tugas1-Tugas2/tab2.xml";
-      $nf7 = "http://localhost/Rekan/IPT-Assignments/data2.xml";
-      $nf8 = "http://localhost/Rekan/pemrograman_integratif/output.xml";
-      $nf9 = "http://localhost/Rekan/Pemrograman-Intergratif/dbxml.xml";
-      $nf10 = "http://localhost/Rekan/progin/contoh.xml";
-      $nf11 = "http://localhost/Rekan/Progint/data/xml/1.xml";
-      $nf12 = "http://localhost/Rekan/BernadetteVina/DataXML.xml";
-      $nf13 = "http://localhost/Rekan/testPHP2/test.xml";
-      $nf14 = "http://localhost/Rekan/tugas-2-pemrograman-integratif/data3.xml";
-      $nf15 = "http://localhost/Rekan/web-service/datasiswa.xml";
+      $nf1 = "./habib-andy/index.php/ws/menu/semua";
+      $nf2 = "./II3160-18211017-18211043/database_collection/xmldb.xml";
+      $nf3 = "./Rekan/BernadetteVina/csv.php";
+      $nf4 = "./Rekan/II3160-18211003-18211050/menu.xml";
+      $nf5 = "./II3160--Pemrograman-Integratif-/DaftarIdol.xml";
+      $nf6 = "./II3160-Tugas1-Tugas2/tab2.xml";
+      $nf7 = "./IPT-Assignments/data2.xml";
+      $nf8 = "./Rekan/pemrograman_integratif/output.xml";
+      $nf9 = "./Pemrograman-Intergratif/dbxml.xml";
+      $nf10 = "./progin/contoh.xml";
+      $nf11 = "./Progint/data/xml/1.xml";
+      $nf12 = "./BernadetteVina/DataXML.xml";
+      $nf13 = "./testPHP2/test.xml";
+      $nf14 = "./tugas-2-pemrograman-integratif/data3.xml";
+      $nf15 = "./web-service/datasiswa.xml";
       
   
       
-      for ($i=1; $i<18; $i++){
+      for ($i=1; $i<16; $i++){
 
         $countnf="nf".$i;
         $x = "Tugas Milik : ".$$countnf; 
