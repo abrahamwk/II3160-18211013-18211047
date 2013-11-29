@@ -17,7 +17,7 @@
       //nf x = variabel untuk menyimpan uri dari tugas rekan kami
 
       $nf1 = "http://localhost/Rekan/habib-andy/index.php/ws/menu/semua";
-      $nf2 = "http://localhost/Rekan/II3160-18211017-18211043/index.php/Api/xml_from_csv_get";
+      $nf2 = "http://localhost/Rekan/II3160-18211017-18211043/database_collection/xmldb.xml";
       $nf3 = "http://localhost/Rekan/BernadetteVina/csv.php";
       $nf4 = "http://localhost/Rekan/II3160-18211003-18211050/menu.xml";
       $nf5 = "http://localhost/Rekan/II3160--Pemrograman-Integratif-/DaftarIdol.xml";
@@ -27,12 +27,11 @@
       $nf9 = "http://localhost/Rekan/Pemrograman-Intergratif/dbxml.xml";
       $nf10 = "http://localhost/Rekan/progin/contoh.xml";
       $nf11 = "http://localhost/Rekan/Progint/data/xml/1.xml";
-      $nf12 = "http://localhost/a/BernadetteVina/DataXML.xml";
-      $nf13 = "http://localhost/a/testPHP2/test.xml";
-      $nf14 = "http://localhost/a/tugas-2-pemrograman-integratif/data3.xml";
-      $nf15 = "http://localhost/a/web-service/datasiswa.xml";
-      $nf16 = "http://localhost/a/Workspace/Menu.xml";
-      $nf17 = "http://localhost/a/Protif/Protif/database/rumah.xml";
+      $nf12 = "http://localhost/Rekan/BernadetteVina/DataXML.xml";
+      $nf13 = "http://localhost/Rekan/testPHP2/test.xml";
+      $nf14 = "http://localhost/Rekan/tugas-2-pemrograman-integratif/data3.xml";
+      $nf15 = "http://localhost/Rekan/web-service/datasiswa.xml";
+      
   
       
       for ($i=1; $i<18; $i++){
@@ -57,7 +56,7 @@
             echo "</table>";
           }
           else {
-            echo "Data Kosong";
+            echo "Tidak Ada Informasi";
           }
           echo "<br>";
         }
