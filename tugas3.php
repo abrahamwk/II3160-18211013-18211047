@@ -2,7 +2,7 @@
 
 <html>
 <head>
-  <title>PHP</title>
+ <title>PHP</title>
   <link href="StyleSheetTugas3.css" rel="stylesheet">
 </head>
 
@@ -12,38 +12,58 @@
   <h2>TUGAS 3 - Mengambil Web Service</h2>
   <h2>Abraham WK 18211013 / Ricky 18211047</h2>
 
-  <p>18211010-18211035</p>
-  <iframe width="100%" height="400" id="display" src="http://localhost/18211010-18211035/tugas2.php">
-  </iframe>
+   <?php
 
-  <p>BernadetteVina</p>
-  <iframe width="100%" height="400" id="display" src="http://localhost/BernadetteVina/csv.php"/>
-  </iframe>
+      //nf x = variabel untuk menyimpan uri dari tugas rekan kami
 
-  <p>II3160-18211003-18211050</p>
-  <iframe width="100%" height="400" id="display" src="http://localhost/II3160-18211003-18211050/index.php?search=datacsv"/>
-  </iframe>
+      $nf1 = "http://localhost/Rekan/habib-andy/index.php/ws/menu/semua";
+      $nf2 = "http://localhost/Rekan/II3160-18211017-18211043/index.php/Api/xml_from_csv_get";
+      $nf3 = "http://localhost/Rekan/BernadetteVina/csv.php";
+      $nf4 = "http://localhost/Rekan/II3160-18211003-18211050/menu.xml";
+      $nf5 = "http://localhost/Rekan/II3160--Pemrograman-Integratif-/DaftarIdol.xml";
+      $nf6 = "http://localhost/Rekan/II3160-Tugas1-Tugas2/tab2.xml";
+      $nf7 = "http://localhost/Rekan/IPT-Assignments/data2.xml";
+      $nf8 = "http://localhost/Rekan/pemrograman_integratif/output.xml";
+      $nf9 = "http://localhost/Rekan/Pemrograman-Intergratif/dbxml.xml";
+      $nf10 = "http://localhost/Rekan/progin/contoh.xml";
+      $nf11 = "http://localhost/Rekan/Progint/data/xml/1.xml";
+      $nf12 = "http://localhost/a/BernadetteVina/DataXML.xml";
+      $nf13 = "http://localhost/a/testPHP2/test.xml";
+      $nf14 = "http://localhost/a/tugas-2-pemrograman-integratif/data3.xml";
+      $nf15 = "http://localhost/a/web-service/datasiswa.xml";
+      $nf16 = "http://localhost/a/Workspace/Menu.xml";
+      $nf17 = "http://localhost/a/Protif/Protif/database/rumah.xml";
+  
+      
+      for ($i=1; $i<18; $i++){
 
-  <p>II3160-Pemograman-Integratif</p>
-  <iframe width="100%" height="400" id="display" src="http://localhost/II3160-Pemograman-Integratif/checkbox.php"/>
-  </iframe>
-
-  <p>IPT-Assignments</p>
-  <iframe width="100%" height="400" id="display" src="http://localhost/IPT-Assignments/csvtoxml.php?data=data3.csv&hasil=data3.xml"/>
-  </iframe>
-
-  <p>pemrograman_integratif</p>
-  <iframe width="100%" height="400" id="display" src="http://localhost/pemrograman_integratif/informasi.php"/>
-  </iframe>
-
-  <p>progin-raosanfady</p>
-  <iframe width="100%" height="400" id="display" src="http://localhost/progin-raosanfady/umur.php"/>
-  </iframe>
-
-  <p>Progint</p>
-  <iframe width="100%" height="400" id="display" src="http://localhost/Progint/csvmore.php?kriteria=Judul&input=Bloomberg"/>
-  </iframe>
-
+        $countnf="nf".$i;
+        $x = "Tugas Milik : ".$$countnf; 
+        echo "<h2> $x </h2>";
+        $temp = simplexml_load_file($$countnf);
+        if ($temp){
+          if (count($temp) != 0){         
+            echo "<table border=\"2\" cellpadding=\"2\">";
+            foreach($temp->children()->children() as $child1){
+              echo "<th>".$child1->getName()."</th>";
+            }
+            foreach($temp->children() as $child){
+              echo "<tr>";
+              foreach($child->children() as $child1){
+                echo "<td>$child1</td>";
+              }
+              echo "</tr>";
+            }       
+            echo "</table>";
+          }
+          else {
+            echo "Data Kosong";
+          }
+          echo "<br>";
+        }
+      }
+  ?>
+ 
   <p>
   <form action="index.php" method="get">
     <input type="submit" name="submit" value="KEMBALI" id="submit" />
@@ -56,3 +76,6 @@
 
 </body>
 </html> 
+
+
+
