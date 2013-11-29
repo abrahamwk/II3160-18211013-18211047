@@ -18,12 +18,12 @@
 
       $nf1 = "./habib-andy/index.php/ws/menu/semua";
       $nf2 = "./II3160-18211017-18211043/database_collection/xmldb.xml";
-      $nf3 = "./Rekan/BernadetteVina/csv.php";
-      $nf4 = "./Rekan/II3160-18211003-18211050/menu.xml";
+      $nf3 = "./BernadetteVina/csv.php";
+      $nf4 = "./II3160-18211003-18211050/menu.xml";
       $nf5 = "./II3160--Pemrograman-Integratif-/DaftarIdol.xml";
       $nf6 = "./II3160-Tugas1-Tugas2/tab2.xml";
       $nf7 = "./IPT-Assignments/data2.xml";
-      $nf8 = "./Rekan/pemrograman_integratif/output.xml";
+      $nf8 = "./pemrograman_integratif/output.xml";
       $nf9 = "./Pemrograman-Intergratif/dbxml.xml";
       $nf10 = "./progin/contoh.xml";
       $nf11 = "./Progint/data/xml/1.xml";
