@@ -16,21 +16,21 @@
 
       //nf x = variabel untuk menyimpan uri dari tugas rekan kami
 
-      $nf1 = "./habib-andy/index.php/ws/menu/semua";
-      $nf2 = "./II3160-18211017-18211043/database_collection/xmldb.xml";
-      $nf3 = "./BernadetteVina/csv.php";
-      $nf4 = "./II3160-18211003-18211050/menu.xml";
-      $nf5 = "./II3160--Pemrograman-Integratif-/DaftarIdol.xml";
-      $nf6 = "./II3160-Tugas1-Tugas2/tab2.xml";
-      $nf7 = "./IPT-Assignments/data2.xml";
-      $nf8 = "./pemrograman_integratif/output.xml";
-      $nf9 = "./Pemrograman-Intergratif/dbxml.xml";
-      $nf10 = "./progin/contoh.xml";
-      $nf11 = "./Progint/data/xml/1.xml";
-      $nf12 = "./BernadetteVina/DataXML.xml";
-      $nf13 = "./testPHP2/test.xml";
-      $nf14 = "./tugas-2-pemrograman-integratif/data3.xml";
-      $nf15 = "./web-service/datasiswa.xml";
+      $nf1 = "http://localhost/habib-andy/index.php/ws/menu/semua";
+      $nf2 = "http://localhost/II3160-18211017-18211043/database_collection/xmldb.xml";
+      $nf3 = "http://localhost/BernadetteVina/csv.php";
+      $nf4 = "http://localhost/II3160-18211003-18211050/menu.xml";
+      $nf5 = "http://localhost/II3160--Pemrograman-Integratif-/DaftarIdol.xml";
+      $nf6 = "http://localhost/II3160-Tugas1-Tugas2/tab2.xml";
+      $nf7 = "http://localhost/IPT-Assignments/data2.xml";
+      $nf8 = "http://localhost/pemrograman_integratif/output.xml";
+      $nf9 = "http://localhost/Pemrograman-Intergratif/dbxml.xml";
+      $nf10 = "http://localhost/progin/contoh.xml";
+      $nf11 = "http://localhost/Progint/data/xml/1.xml";
+      $nf12 = "http://localhost/BernadetteVina/DataXML.xml";
+      $nf13 = "http://localhost/testPHP2/test.xml";
+      $nf14 = "http://localhost/tugas-2-pemrograman-integratif/data3.xml";
+      $nf15 = "http://localhost/web-service/datasiswa.xml";
       
   
       
