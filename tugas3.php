@@ -16,21 +16,16 @@
 
       //nf x = variabel untuk menyimpan uri dari tugas rekan kami
 
-      $nf1 = "http://localhost/habib-andy/index.php/ws/menu/semua";
-      $nf2 = "http://localhost/II3160-18211017-18211043/database_collection/xmldb.xml";
-      $nf3 = "http://localhost/BernadetteVina/csv.php";
-      $nf4 = "http://localhost/II3160-18211003-18211050/menu.xml";
-      $nf5 = "http://localhost/II3160--Pemrograman-Integratif-/DaftarIdol.xml";
-      $nf6 = "http://localhost/II3160-Tugas1-Tugas2/tab2.xml";
-      $nf7 = "http://localhost/IPT-Assignments/data2.xml";
-      $nf8 = "http://localhost/pemrograman_integratif/output.xml";
-      $nf9 = "http://localhost/Pemrograman-Intergratif/dbxml.xml";
-      $nf10 = "http://localhost/progin/contoh.xml";
-      $nf11 = "http://localhost/Progint/data/xml/1.xml";
-      $nf12 = "http://localhost/BernadetteVina/DataXML.xml";
-      $nf13 = "http://localhost/testPHP2/test.xml";
-      $nf14 = "http://localhost/tugas-2-pemrograman-integratif/data3.xml";
-      $nf15 = "http://localhost/web-service/datasiswa.xml";
+      $nf1 = "http://sti-itb.org/Progint-yogidanang/?kolom=basic";
+      $nf2 = "http://sti-itb.org/18211014-dan-18211029/index2.php?state=state3&submit2=Submit";
+      $nf3 = "http://sti-itb.org/II3160-Progin-18211002-18211033/getSelf.php/?input=1";
+      $nf4 = "http://sti-itb.org/pemrograman_integratif/informasi_xml.php?nim=all";
+      $nf5 = "http://sti-itb.org/18211010-18211035/searchmhs.php?tag=NIM&value=18211001";
+      $nf6 = "http://sti-itb.org/II3160-Tugas-18211011-18211053/index.php/search/majalahs";
+      $nf7 = "http://sti-itb.org/pemrograman-integratif/artis.php?dari=14&sampai=15";
+      $nf8 = "http://sti-itb.org/progin-raosanfady/show.php/?id=all";
+      $nf9 = "http://sti-itb.org/BernadetteVina/csv.php";
+      $nf10 = "http://sti-itb.org/habib-andy/index.php/ws/menu/daerah/Jawa";
       
   
       
